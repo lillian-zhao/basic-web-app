@@ -8,7 +8,11 @@ export default function QueryProcessor(query: string): string {
   }
 
   if (query.toLowerCase().includes("name")) {
-    return "Rohan";
+    return "Lillian";
+  }
+  
+  if (query.toLowerCase().includes("andrew")) {
+    return "lillianz";
   }
 
   return "";
